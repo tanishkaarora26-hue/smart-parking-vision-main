@@ -1,0 +1,13 @@
+dataset:
+  path: ./data/pklot_dataset/data.yaml
+
+training:
+  model: yolo11n.pt
+  epochs: 20
+  image_size: 640
+  batch: 8
+  device: cpu
+
+output:
+  project: ./runs
+  name: smart_parking

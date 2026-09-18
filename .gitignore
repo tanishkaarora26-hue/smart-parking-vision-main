@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Dataset
+data/pklot_dataset/
+data/PKLot.v2-640.yolov8.zip
+
+# YOLO training outputs
+runs/
+
+# Model files
+*.pt
+
+# Generated outputs
+outputs/*.jpg
+outputs/*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
